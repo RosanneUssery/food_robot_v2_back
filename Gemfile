@@ -39,3 +39,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# import db schema to models etc
+gem 'schema_to_scaffold', '~> 0.8.0'
